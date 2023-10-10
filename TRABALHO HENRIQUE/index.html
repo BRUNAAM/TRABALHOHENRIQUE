@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO DE PRODUTOS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>GERENCIAMENTO DE PRODUTOS</h1>
+    </div>
+
+    <div class="cadastro">
+        <h2>CADASTRAR PRODUTOS</h2>
+        <form id="productForm">
+            <label for="produtoId"></label>
+            <input type="text" id="produtoId" placeholder="ID" required>
+
+            <label for="nomeProduto"></label>
+            <input type="text" id="nomeProduto" placeholder="NOME PRODUTO" required><br><br>
+
+            <label for="codBarras"></label>
+            <input type="text" id="codBarras" placeholder="CODIGO DE BARRAS" required>
+
+            <label for="marca"></label>
+            <input type="text" id="marca" placeholder="MARCA" required><br><br>
+
+            <label for="modelo"></label>
+            <input type="text" id="modelo" placeholder="MODELO" required>
+
+            <label for="valor"></label>
+            <input type="text" id="valor" placeholder="VALOR" required><br><br>
+
+            <button type="submit">ADICIONAR PRODUTO</button><br><br>
+        </form>
+    </div>
+
+    <div class="titulo"><h2>LISTA DE PRODUTOS</h2></div>
+    <ul id="productList"></ul>
+
+    <script src="java.js"></script>
+</body>
+
+</html>

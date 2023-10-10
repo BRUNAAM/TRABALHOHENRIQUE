@@ -1,0 +1,10 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  background-image: linear-gradient(to right, #EF798A, #B0FE76);
+}
+
+input,
+button {
+  margin: 5px;
+}
